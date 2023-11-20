@@ -1,0 +1,20 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6" *ngFor="let user of users[0]">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">{{user.name}}</h5>
+          <div class="user-info">
+            <p><strong>Nombre:</strong> {{user.name}}</p>
+            <p><strong>Apellido:</strong>{{ user.lastName }}</p>
+            <p><strong>Email:</strong> {{user.email}}</p>
+            <p><strong>Edad:</strong> {{user.age}}</p>
+          </div>
+          <button class="btn btn-danger" (click)="eliminarUsuario(user.id)">Eliminar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+

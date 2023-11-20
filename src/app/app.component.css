@@ -1,0 +1,9 @@
+.app-container {
+    background-color: rgba(0, 0, 255, 0.5); /* Color de fondo azul con opacidad 0.5 */
+    min-height: 100vh; /* Establece la altura mínima al 100% de la ventana gráfica */
+    display: flex; /* Utiliza un modelo de caja flexible para el contenido */
+    flex-direction: column; /* Alinea el contenido en una columna vertical */
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: center; /* Centra el contenido horizontalmente */
+  }
+  
